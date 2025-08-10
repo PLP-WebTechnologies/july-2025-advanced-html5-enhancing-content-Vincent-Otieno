@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about planet types, sizes, and order in our solar system.">
+    <title>Solar System Form</title>
+</head>
+<body>
+    <section>
+        <h2>Types of Planets</h2>
+        <ul>
+            <li>Ice Giants</li>
+            <li>Gas Giants</li>
+            <li>Terrestrial</li>
+        </ul>
+
+        <h2>Planetary Order</h2>
+        <ol>
+            <li>Mercury</li>
+            <li>Venus</li>
+            <li>Earth</li>
+            <li>Mars</li>
+            <li>Jupiter</li>
+            <li>Saturn</li>
+            <li>Uranus</li>
+            <li>Neptune</li>
+        </ol>
+
+    </section>
+    <section>
+         <table border="1">
+            <caption>Planet Types and Sizes</caption>
+            <tr>
+                <th>Planet</th>
+                <th>Type</th>
+                <th>Size</th>
+            </tr>
+             <tr>
+                <td>Mercury</td>
+                <td>Terrestrial</td>
+                <td>2,440 km</td>
+            </tr>
+            <tr>
+                <td>Venus</td>
+                <td>Terrestrial</td>
+                <td>6,050 km</td>
+            </tr>
+            <tr>
+                <td>Earth</td>
+                <td>Terrestrial</td>
+                <td>6,440 km</td>
+            </tr>
+            <tr>
+                <td>Mars</td>
+                <td>Terrestrial</td>
+                <td>3,440 km</td>
+            </tr>
+            <tr>
+                <td>Jupiter</td>
+                <td>Gas Giant</td>
+                <td>69,000 km</td>
+            </tr>
+            <tr>
+                <td>Saturn</td>
+                <td>Gas Giant</td>
+                <td>55,000 km</td>
+            </tr>
+            <tr>
+                <td>Uranus</td>
+                <td>Ice Giant</td>
+                <td>25,000 km</td>
+            </tr>
+            <tr>
+                <td>Neptune</td>
+                <td>Ice Giant</td>
+                <td>24,500 km</td>
+            </tr>
+        </table>
+
+    </section>
+    <section>
+        <h2>Solar System Image and Video</h2>
+        <img src="pexels-zelch-12491599.jpg" alt="Image of planets in a solar system" height="300" width="270">
+        <video controls width="400">
+            <source src="solar system.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section>
+            <h2>Solar System Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="John" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="trial@gmail.com" required><br><br>
+            <fieldset>
+                <legend>Choose the planet of your liking</legend>
+            <label for="Mercury">Mercury</label><br>
+            <input type="radio" name="planet" id="Mercury" value="Mercury" required><br><br>
+            <label for="Venus">Venus</label><br>
+            <input type="radio" name="planet" id="Venus" value="Venus"><br><br>
+            <label for="Earth">Earth</label><br>
+            <input type="radio" name="planet" id="Earth" value="Earth"><br><br>
+            <label for="Mars">Mars</label><br>
+            <input type="radio" name="planet" id="Mars" value="Mars"><br><br>
+            <label for="Jupiter">Jupiter</label><br>
+            <input type="radio" name="planet" id="Jupiter" value="Jupiter"><br><br>
+            <label for="Saturn">Saturn</label><br>
+            <input type="radio" name="planet" id="Saturn" value="Saturn"><br><br>
+            <label for="Uranus">Uranus</label><br>
+            <input type="radio" name="planet" id="Uranus" value="Uranus"><br><br>
+            <label for="Neptune">Neptune</label><br>
+            <input type="radio" name="planet" id="Neptune" value="Neptune"><br><br>
+            
+            </fieldset>
+            
+            <label for="planetCount">Number of Planets in Solar System</label><br>
+        <input type="text" id="planetCount" name="planetCount" value="8" readonly><br><br>
+
+<button type="submit">Submit</button>
+        </form>
+
+    </section>
+    <footer>
+            <p>&copy; 2025 Solar System Explorer. All rights reserved.</p>
+        </footer>
+    
+</body>
+</html>
